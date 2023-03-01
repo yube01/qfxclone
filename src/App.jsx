@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import './App.css'
-import ScrollTicker from '../components/ScrollTicker'
+import ScrollTicker from '../components/scrollticker/ScrollTicker'
 
 function App() {
   const [count, setCount] = useState(0)
