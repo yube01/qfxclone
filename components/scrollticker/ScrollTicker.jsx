@@ -10,8 +10,8 @@ const ScrollTicker = () => {
   };
 
   return (
-    <>
-      { !closeTicker?
+    <div className="scrollticker">
+      {!closeTicker ? 
         <div className="scroll">
           <div className="container">
             <marquee behavior="" direction="">
@@ -25,9 +25,12 @@ const ScrollTicker = () => {
           <div className="img">
             <img src={cross} alt="" onClick={handleClick} />
           </div>
-        </div>:""
-      }
-    </>
+        </div>
+       : <div className="nodispay">
+        <h1></h1>
+       </div>
+       }
+    </div>
   );
 };
 
