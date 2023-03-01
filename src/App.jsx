@@ -1,14 +1,15 @@
 import { useState } from 'react'
 
 import './App.css'
-import ScrollTicker from '../components/scrollticker/ScrollTicker'
+import Home from "../page/Home"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <ScrollTicker/>
+      <Home/>
+    
     </div>
   )
 }
