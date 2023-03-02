@@ -5,10 +5,35 @@ const Header = () => {
     <div className="header">
         <div className="container">
             <div className="left">
-              <h1>hey</h1>
+              <img src="../../img/logo.svg" alt="" />
             </div>
-            <div className="center"></div>
-            <div className="right"></div>
+            <div className="center">
+              <div className="icon">
+                <img src="../../img/ico-movie.svg" alt="" />
+                <span> Movie</span>
+              </div>
+              <div className="icon">
+                <img src="../../img/ico-cinema.svg" alt="" />
+                <span> Locations</span>
+              </div>
+              <div className="icon">
+                <img src="../../img/ico-ticket.svg" alt="" />
+                <span> My Tickets</span>
+              </div>
+              <div className="icon">
+                <img src="../../img/ico-loyalty.svg" alt="" />
+                <span> My Loyality</span>
+              </div>
+              <div className="icon">
+                <img src="../../img/ico-support.svg" alt="" />
+                <span> Support</span>
+              </div>
+            </div>
+            <div className="right">
+              <span>   Login </span>
+              <span> Register </span>
+              
+            </div>
         </div>
     </div>
   )

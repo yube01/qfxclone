@@ -1,8 +1,51 @@
 .header{
-  
-    height: 10vh;
-    
+    background-color: rgb(48, 47, 47);
+    height: 9vh;
+    padding: 1rem 6rem ;
+   
 }
 .container {
-    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.left img{
+    height: 4rem;
+    width: 8rem;
+    
+    
+}
+
+.center{
+    display: flex;
+    gap: 2rem;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+.icon img{
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 0.5rem;
+}
+.icon:hover{
+    color: rgb(56, 174, 221);
+    transition: 0.5s ease-in;
+}
+
+.right{
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    
+}
+.right span{
+    margin-left: 1rem;
 }
