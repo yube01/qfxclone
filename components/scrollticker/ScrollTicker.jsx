@@ -13,7 +13,7 @@ const ScrollTicker = () => {
     <div className="scrollticker">
       {!closeTicker ? 
         <div className="scroll">
-          <div className="container">
+          <div className="wrapper">
             <marquee behavior="" direction="">
               <span className="text">
                 For any issues, please fill the form by clicking on the Support

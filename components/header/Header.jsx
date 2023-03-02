@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <div className="header">
         <div className="container">
-            <div className="left"></div>
+            <div className="left">
+              <h1>hey</h1>
+            </div>
             <div className="center"></div>
             <div className="right"></div>
         </div>
