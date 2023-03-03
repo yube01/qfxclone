@@ -20,7 +20,7 @@ const Slider = () => {
         <div className="imgSlider" style={{backgroundImage:`url(${slides[0].url})`}}>
          
         </div>
-        <div className="text">
+        <div className="text1">
             <h1>CHAKKA PANJA 4</h1>
             <div className="icons">
                 <div className="icon">
