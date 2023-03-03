@@ -13,8 +13,8 @@
 }
 
 .left img{
-    height: 4rem;
-    width: 8rem;
+    height: 3rem;
+    width: 6rem;
     
     
 }
@@ -31,8 +31,8 @@
     cursor: pointer;
 }
 .icon img{
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     margin-bottom: 0.5rem;
 }
 .icon:hover{
@@ -43,7 +43,7 @@
 .right{
     color: white;
     cursor: pointer;
-    font-size: 1.1rem;
+    
     
 }
 .right span{
