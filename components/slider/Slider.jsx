@@ -5,10 +5,24 @@ const Slider = () => {
 
   const slides = [
     {
-      url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7875"
+      url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7875",
+      name:"chakka panja"
     },
     {
-      url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7871"
+      url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7871",
+      name:"john wick"
+    },
+    {
+      url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7831",
+      name:"wakanda forever"
+    },
+    {
+      url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7771",
+      name:"laal singh chatda"
+    },
+    {
+      url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7751",
+      name:"thor"
     }
   ]
 
@@ -35,7 +49,7 @@ const Slider = () => {
          
         </div>
         <div className="text1">
-            <h1>CHAKKA PANJA 4</h1>
+            <h1>{slides[index].name}</h1>
             <div className="icons">
                 <div className="icon">
                 <img src="../../img/ico-ticket.svg" alt="" />
