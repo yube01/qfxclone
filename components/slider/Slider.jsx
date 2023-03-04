@@ -51,11 +51,11 @@ const Slider = () => {
         <div className="text1">
             <h1>{slides[index].name}</h1>
             <div className="icons">
-                <div className="icon">
+                <div className="icon1">
                 <img src="../../img/ico-ticket.svg" alt="" />
                 <span> BUY TICKET </span>
                 </div>
-                <div className="icon">
+                <div className="icon1">
                 <img src="../../img/play-icon.svg" alt="" />
                 <span> PLAY TRAILER </span>
                 </div>
