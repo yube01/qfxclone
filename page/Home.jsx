@@ -8,6 +8,9 @@ const Home = () => {
         <ScrollTicker/>
         <Header/>
         <Slider/>
+        <h1>
+          NOW SHOWING
+        </h1>
     </div>
   )
 }

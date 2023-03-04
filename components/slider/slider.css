@@ -4,13 +4,16 @@
 }
 
 .imgSlider {
-    width: 100vw;
+    width: 98.9vw;
     height: 85vh;
     
-    
-    
-
 }
+
+.imgSlider img{
+    width: 100vw;
+    height: 50vh;
+}
+
 
 .text1 {
     position: absolute;
