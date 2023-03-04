@@ -63,7 +63,10 @@ const Slider = () => {
             </div>
         </div>
         <div className="increase">
-          <h1 onClick={nextSlide}>+</h1>
+          <img onClick={nextSlide} src="../../img/arrow.png"/>
+        </div>
+        <div className="decrease">
+          <img onClick={prevSlide}src="../../img/right-arrow.png"/>
         </div>
       </div>
     </div>

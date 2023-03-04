@@ -6,7 +6,8 @@
 .imgSlider {
     width: 100vw;
     height: 85vh;
-    object-fit:cover;
+    
+    
     
 
 }
@@ -15,7 +16,7 @@
     position: absolute;
     color: white;
     left: 10rem;
-    top: 40rem;
+    top: 35rem;
     
 }
 
@@ -25,4 +26,34 @@
 .text .icons .icon{
     display: flex;
     flex-direction: row;
+}
+
+.increase{
+    position: absolute;
+    top: 25rem;
+    left: 2rem;
+    cursor: pointer;
+    
+}
+.increase img{
+    height: 2rem;
+    width: 2rem;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.decrease{
+    position: absolute;
+    top: 25rem;
+    right: 2rem;
+    cursor: pointer;
+
+}
+.decrease img{
+    height: 2rem;
+    width: 2rem;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 50%;
 }
