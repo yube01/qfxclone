@@ -9,6 +9,8 @@ const NowShowing = () => {
         NOW SHOWING
       </h1>
         <Poster/>
+       
+        
     </div>
   )
 }
