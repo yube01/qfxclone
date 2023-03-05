@@ -6,6 +6,7 @@ const Poster = () => {
       <div className="container">
         <div className="posterImg">
           <img src="https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7847" alt="" />
+        
         </div>
         <div className="posterIcon">
         <div className="icons">
@@ -20,6 +21,7 @@ const Poster = () => {
                 
             </div>
         </div>
+        
       </div>
     </div>
   )

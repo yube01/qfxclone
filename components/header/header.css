@@ -29,6 +29,7 @@
     color: white;
     align-items: center;
     cursor: pointer;
+    transition: color 1s;
 }
 .icon img{
     width: 3rem;
@@ -37,7 +38,7 @@
 }
 .icon:hover{
     color: rgb(56, 174, 221);
-    transition: 0.5s ease-in;
+    
 }
 
 .right{
