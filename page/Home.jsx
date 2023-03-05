@@ -2,6 +2,7 @@ import React from 'react'
 import ScrollTicker from '../components/scrollticker/ScrollTicker'
 import Header from '../components/header/Header'
 import Slider from '../components/slider/Slider'
+import NowShowing from '../components/NowShowing'
 const Home = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Home = () => {
         <h1>
           NOW SHOWING
         </h1>
+        <NowShowing/>
     </div>
   )
 }
