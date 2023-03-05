@@ -1,12 +1,12 @@
 import React from 'react'
-import "./poster.css"
+import "../poster/poster.css"
 
-const Poster = ({nowShow}) => {
+const NextPoster = ({nextShow}) => {
   return (
     <div className="poster">
       <div className="container">
         <div className="posterImg">
-          <img src={nowShow.url} alt="" />
+          <img src={nextShow.url} alt="" />
         
         </div>
         <div className="posterIcon">
@@ -28,5 +28,5 @@ const Poster = ({nowShow}) => {
   )
 }
 
-export default Poster
+export default NextPoster
 

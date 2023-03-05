@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     height:25rem;
-    width: 20rem;
+    width: 19rem;
 }
 
 .container:hover .posterImg img{
