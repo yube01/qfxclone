@@ -1,9 +1,14 @@
 .nowShowing{
-    padding: 2rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+   
 }
-.textnow{
-    color: #007e9e;
-    font-weight: 500;
-    font-size: 36px;
-    margin-bottom: 1rem;
+
+.nowShowings{
+    display: flex;
+    flex-wrap: wrap;
+
 }
+

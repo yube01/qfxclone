@@ -1,4 +1,19 @@
 .home{
     background-image:url("https://www.qfxcinemas.com/assets/images/bg-body.jpg");
     background-size: cover;
+    width: 99vw;
+}
+
+
+.shows{
+    padding: 2rem 6rem;
+}
+
+.shows h1{
+    color: #007e9e;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 1rem;
+ 
+
 }

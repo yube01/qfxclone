@@ -1,11 +1,11 @@
 import React from 'react'
 import "./poster.css"
-const Poster = () => {
+const Poster = ({nowShow}) => {
   return (
     <div className="poster">
       <div className="container">
         <div className="posterImg">
-          <img src="https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7847" alt="" />
+          <img src={nowShow.url} alt="" />
         
         </div>
         <div className="posterIcon">
