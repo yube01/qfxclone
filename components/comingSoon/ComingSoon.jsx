@@ -30,6 +30,7 @@ const ComingSoon = () => {
           {comingShows.map(futureShow=>(
           <ComingPoster futureShow={futureShow} key={futureShow.id}/>
         ))}
+        
        
     </div>
   )

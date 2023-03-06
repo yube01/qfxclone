@@ -17,3 +17,26 @@
  
 
 }
+
+.viewAll{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.viewAll h1{
+    display: flex;
+    font-size: 1.3rem;
+    color: #007e9e;
+
+}
+
+.material-symbols-outlined{
+ 
+    font-weight: 500;
+    color: #007e9e;
+    width: 1rem;
+    
+}
