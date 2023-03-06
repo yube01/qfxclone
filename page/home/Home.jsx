@@ -7,6 +7,7 @@ import "./home.css";
 import NextChange from "../../components/nextchange/NextChange";
 import ComingSoon from "../../components/comingSoon/ComingSoon";
 import Partner from "../../components/partner/Partner";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
           <span class="material-symbols-outlined">trending_flat</span>
         </div>
         <Partner/>
+        <Footer/>
       </div>
     </div>
   );

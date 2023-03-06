@@ -1,0 +1,50 @@
+.footer{
+    margin-top: 3rem;
+
+}
+
+.footer .container{
+    display: flex;
+    
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.mainTitle{
+    width: 20vw;
+}
+.mainTitle h1{
+    font-size: 1.3rem;
+    color: #0987be;
+    text-transform: uppercase;
+    border-bottom: 1px solid #959392;
+   
+}
+
+
+
+.mainTitle ul li{
+    list-style: none;
+    color: #494847;
+    transition: color 0.5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+
+.mainTitle ul li:hover{
+    color: #007bff;
+}
+
+.big img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.small img{
+    width: 5rem;
+    height: 1.7rem;
+    margin-right: 0.5rem;
+    object-fit: cover;
+}
