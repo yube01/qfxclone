@@ -7,22 +7,35 @@ const ComingSoon = () => {
         {
           id:1,
           url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7861",
-          trailer:""
+          trailer:"",
+          name:"TU JHOOTI MAIN MAKKARR",
+          rated:"(PG)",
+          date:"8 MARCH 2023"
+
         },
         {
           id:2,
-          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7859",
-          trailer:""
+          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7871",
+          trailer:"",
+          name:"JOHN WICK",
+          rated:"(U)",
+          date:"23 MARCH 2023"
         },
         {
           id:3,
-          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7852",
-          trailer:""
+          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7872",
+          trailer:"",
+          name:"BHOLAA",
+          rated:"(U)",
+          date:"30 MARCH 2023"
         },
         {
           id:4,
           url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7870",
-          trailer:""
+          trailer:"",
+          name:"KABZAA",
+          rated:"(PG)",
+          date:"17 MARCH 2023"
         },
       ]
   return (

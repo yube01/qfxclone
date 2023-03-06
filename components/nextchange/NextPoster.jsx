@@ -3,7 +3,8 @@ import "../poster/poster.css"
 
 const NextPoster = ({nextShow}) => {
   return (
-    <div className="poster">
+    <div className="mainPoster">
+      <div className="poster">
       <div className="container">
         <div className="posterImg">
           <img src={nextShow.url} alt="" />
@@ -23,6 +24,11 @@ const NextPoster = ({nextShow}) => {
             </div>
         </div>
         
+      </div>
+    </div>
+    <div className="title">
+       <h3>{nextShow.name}</h3>
+       <h3>{nextShow.rated}</h3>
       </div>
     </div>
   )

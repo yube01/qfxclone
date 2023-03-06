@@ -3,7 +3,8 @@ import "./poster.css"
 
 const Poster = ({nowShow}) => {
   return (
-    <div className="poster">
+    <div className="mainPoster">
+      <div className="poster">
       <div className="container">
         <div className="posterImg">
           <img src={nowShow.url} alt="" />
@@ -22,9 +23,20 @@ const Poster = ({nowShow}) => {
                 
             </div>
         </div>
+       
         
       </div>
+    
+   
+     
     </div>
+    <div className="title">
+       <h3>{nowShow.name}</h3>
+       <h3>{nowShow.rated}</h3>
+      </div>
+
+    </div>
+    
   )
 }
 

@@ -6,18 +6,24 @@ const NextChange = () => {
         {
           id:1,
           url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7845",
-          trailer:""
+          trailer:"",
+          name:"AVATAR : THE WAY OF WATER",
+          rated:"(U)"
         },
         {
           id:2,
           url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7869",
-          trailer:""
+          trailer:"",
+          name:"ANT-MAN AND THE WASP: QUANTUMANIA",
+          rated:"(PG)"
         },
      
         {
           id:3,
           url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7873",
-          trailer:""
+          trailer:"",
+          name:"FAST AND FURIOUS 10",
+          rated:"(U)"
         },
       ]
   return (
