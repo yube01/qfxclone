@@ -6,6 +6,7 @@ import NowShowing from "../../components/nowshowing/NowShowing";
 import "./home.css";
 import NextChange from "../../components/nextchange/NextChange";
 import ComingSoon from "../../components/comingSoon/ComingSoon";
+import Partner from "../../components/partner/Partner";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
           <h1>VIEW ALL</h1>
           <span class="material-symbols-outlined">trending_flat</span>
         </div>
+        <Partner/>
       </div>
     </div>
   );

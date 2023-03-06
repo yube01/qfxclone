@@ -1,0 +1,24 @@
+.partner{
+    display: flex;
+    flex-direction: column;
+}
+.partner h1{
+    font-size: 1.5rem;
+    color: #0987be;
+    text-transform: uppercase;
+    border-bottom: 1px solid #959392;
+}
+
+.partner img{
+    height: 3.5rem;
+    width: 9.2rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.partner span{
+    color: #343a40;
+    margin-left: 1.7rem;
+    font-weight: 500;
+}
