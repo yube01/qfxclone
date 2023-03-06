@@ -6,7 +6,7 @@ const Slider = () => {
   const slides = [
     {
       url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7875",
-      name:"chakka panja"
+      name:"creed iii"
     },
     {
       url:"https://api.qfxcinemas.com/api/public/OneSheetPoster?eventId=7871",
@@ -30,7 +30,7 @@ const Slider = () => {
 
   const prevSlide = () =>{
     const firstSlide = index ===0;
-    const newSlide = firstSlide? slides.length -2 :index -1
+    const newSlide = firstSlide? slides.length -1 :index -1
     setIndex(newSlide)
 
 
@@ -45,7 +45,7 @@ const Slider = () => {
   return (
     <div className="slider">
       <div className="container">
-        <div className="imgSlider" style={{backgroundImage:`url(${slides[index].url})`}}>
+        <div className="imgSlider" style={{backgroundImage:`url(${slides[index].url})`,backgroundSize:"contain"}}>
      
         </div>
         <div className="text1">
