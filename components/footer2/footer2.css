@@ -1,0 +1,42 @@
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(73,72,71,.7);
+
+}
+.top{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.socialMedia img{
+    height: 1.4rem;
+    width: 1.4rem;
+  
+}
+.bottom{
+    font-size: 0.8rem;
+}
+
+.bottom span{
+    padding:  0 0.3rem;
+}
+.border{
+    border-right: 1px solid grey;
+    
+    
+}
+
+.bottom span a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.bottom span a:hover{
+    color: #007bff;
+}

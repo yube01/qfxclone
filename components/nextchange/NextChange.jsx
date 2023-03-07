@@ -8,14 +8,16 @@ const NextChange = () => {
           url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7845",
           trailer:"",
           name:"AVATAR : THE WAY OF WATER",
-          rated:"(U)"
+          rated:"(U)",
+          date:""
         },
         {
           id:2,
           url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7869",
           trailer:"",
           name:"ANT-MAN AND THE WASP: QUANTUMANIA",
-          rated:"(PG)"
+          rated:"(PG)",
+          date:""
         },
      
         {
@@ -23,7 +25,8 @@ const NextChange = () => {
           url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7873",
           trailer:"",
           name:"FAST AND FURIOUS 10",
-          rated:"(U)"
+          rated:"(U)",
+          date:""
         },
       ]
   return (

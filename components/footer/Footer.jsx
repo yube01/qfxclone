@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import Footer2 from '../footer2/Footer2'
 const Footer = () => {
   return (
     <div className="footer">
@@ -58,6 +59,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <Footer2/>
     </div>
   )
 }
