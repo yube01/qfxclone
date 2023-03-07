@@ -27,13 +27,17 @@ const Home = () => {
       <div className="shows">
         <h1>COMING SOON</h1>
         <ComingSoon />
-        <div className="viewAll">
+       
+      </div>
+      <div className="viewAll">
           <h1>VIEW ALL</h1>
           <span class="material-symbols-outlined">trending_flat</span>
         </div>
+        <div className="foots">
         <Partner/>
         <Footer/>
-      </div>
+        </div>
+       
     </div>
   );
 };

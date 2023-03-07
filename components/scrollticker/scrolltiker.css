@@ -12,14 +12,14 @@
 
 }
 
-@media screen and (max-width:400px){
+@media  screen and (max-width:991px){
    .wrapper{
     padding: 0.1rem;
     font-weight: 100;
    }
-   img{
-    width: 0.5rem;
-    height: 0.5rem;
+   .img img{
+    width: 0.8rem;
+    height: 0.8rem;
     object-fit: cover;
    }
 }

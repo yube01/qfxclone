@@ -1,11 +1,11 @@
 .header{
     background-color: #2d2b2a;
-    height: 9vh;
+    height: 14vh;
     padding: 1rem 6rem ;
    
 }
 
-@media screen and (max-width:400px){
+@media  screen and (max-width:991px){
     .header{
         height: 5vh;
         padding: 1rem ;
@@ -32,7 +32,7 @@
   
 
 }
-@media screen and (min-width:400px){
+@media  screen and (min-width:991px){
     .right2{
         display: none;
     }
