@@ -44,8 +44,30 @@ const Slider = () => {
 
   return (
     <div className="slider">
+          <div className="center">
+          <div className="icon">
+            <img src="../../img/ico-movie.svg" alt="" />
+            <span> Movies</span>
+          </div>
+          <div className="icon">
+            <img src="../../img/ico-cinema.svg" alt="" />
+            <span> Locations</span>
+          </div>
+          <div className="icon">
+            <img src="../../img/ico-ticket.svg" alt="" />
+            <span> My Tickets</span>
+          </div>
+          <div className="icon">
+            <img src="../../img/ico-loyalty.svg" alt="" />
+            <span> My Loyality</span>
+          </div>
+          <div className="icon">
+            <img src="../../img/ico-support.svg" alt="" />
+            <span> Support</span>
+          </div>
+        </div>
       <div className="container">
-        <div className="imgSlider" style={{backgroundImage:`url(${slides[index].url})`,backgroundSize:"contain"}}>
+        <div className="imgSlider" style={{backgroundImage:`url(${slides[index].url})`,backgroundSize:"cover",backgroundRepeat:"no-repeat"}}>
      
         </div>
         <div className="text1">

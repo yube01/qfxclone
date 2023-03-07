@@ -4,6 +4,12 @@
     width: 98.8vw;
 }
 
+@media  screen and (max-width:400px) {
+    .home{
+        width: 107vw;
+    }
+    
+}
 
 .shows{
     padding: 2rem 6rem;

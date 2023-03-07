@@ -1,7 +1,7 @@
 
 .scroll{
     
-    background-color: #D44C2E;
+    background-color: #a94442;
     color: white;
     display: flex;
     justify-content: center;
@@ -12,12 +12,24 @@
 
 }
 
+@media screen and (max-width:400px){
+   .wrapper{
+    padding: 0.1rem;
+    font-weight: 100;
+   }
+   img{
+    width: 0.5rem;
+    height: 0.5rem;
+    object-fit: cover;
+   }
+}
+
 .wrapper{
     padding: 0.5rem 1rem 0.5rem 2rem;
     width: 85vw;
-    background-color: #D44C2E;
+    background-color: #a94442;
     color: white;
-    font-weight: bolder;
+    font-weight: 500;
     display: flex;
 }
 
