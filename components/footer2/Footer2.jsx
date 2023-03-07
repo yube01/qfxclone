@@ -7,10 +7,13 @@ const Footer2 = () => {
           <span>Privacy Policy</span>
           <span> Terms of Use</span>
           <div className="socialMedia">
-          <img src="https://img.icons8.com/glyph-neue/64/000000/facebook.png"/>
-          <img src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png"/>
-          <img src="https://img.icons8.com/ios-glyphs/30/null/whatsapp.png"/>
-          <img src="https://img.icons8.com/ios-glyphs/30/null/viber.png"/>
+            <a href="https://www.facebook.com/qfxcinemasnepal/" target='_blank'><img src="https://img.icons8.com/glyph-neue/64/000000/facebook.png"/></a>
+            <a href="https://www.instagram.com/qfxcinemas_official/" target='_blank'> <img src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png"/></a>
+            <a href="https://api.whatsapp.com/send?phone=9779813876466" target='_blank'><img src="https://img.icons8.com/ios-glyphs/30/null/whatsapp.png"/></a>
+            <a href="viber://chat?number=9779813876466" target='_blank'><img src="https://img.icons8.com/ios-glyphs/30/null/viber.png"/></a>
+
+         
+     
           </div>
         </div>
         <div className="bottom">

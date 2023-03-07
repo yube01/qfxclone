@@ -47,13 +47,15 @@ const Footer = () => {
                 </ul>
                 <div className="qrCode">
                     <div className="big">
-                        <img src="../../img/qfx-google-play.png" alt="" />
-                        <img src="../../img/qfx-ios-store.png" alt="" />
+                        <a href="https://play.google.com/store/apps/details?id=com.exolutus.qfxcinemas&hl=en" target="_blank" rel="noopener noreferrer">   <img src="../../img/qfx-google-play.png" alt="" /></a>
+                        <a href="https://apps.apple.com/np/app/qfx-cinema/id1092931043" target="_blank" rel="noopener noreferrer"><img src="../../img/qfx-ios-store.png" alt="" /></a>
+                        
                        
                     </div>
                     <div className="small">
-                        <img src="../../img/googleplay.png" alt="" />
-                        <img src="../../img/appstore.png" alt="" />
+                        <a href="https://play.google.com/store/apps/details?id=com.exolutus.qfxcinemas&hl=en" target="_blank" rel="noopener noreferrer"> <img src="../../img/googleplay.png" alt="" /></a>
+                        <a href="https://apps.apple.com/np/app/qfx-cinema/id1092931043" target="_blank" rel="noopener noreferrer"><img src="../../img/appstore.png" alt="" /></a>
+                        
                      
                     </div>
                 </div>

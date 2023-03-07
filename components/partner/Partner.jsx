@@ -6,7 +6,8 @@ const Partner = () => {
         <h1>
             OUR PREFERRED PARTNERS
         </h1>
-        <img src="../../img/khalti-logo.svg" alt="" />
+        <a href="https://khalti.com/" target="_blank" rel="noopener noreferrer"><img src="../../img/khalti-logo.svg" alt="" /></a>
+        
         <span>
             PAYMENT PARTNER
         </span>

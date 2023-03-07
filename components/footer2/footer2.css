@@ -18,6 +18,10 @@
     width: 1.4rem;
   
 }
+.socialMedia a{
+margin-right: 0.2rem;
+text-decoration: none;
+}
 .bottom{
     font-size: 0.8rem;
 }
@@ -34,7 +38,7 @@
 .bottom span a{
     text-decoration: none;
     color: inherit;
-    
+
 }
 
 .bottom span a:hover{
