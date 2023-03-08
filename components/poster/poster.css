@@ -1,3 +1,7 @@
+.trailerWrapper{
+    position: relative;
+}
+
 .mainPoster {
     height: 30rem;
     width: 19rem;
@@ -59,6 +63,8 @@
 .container:hover .posterImg img{
  height: 35rem;
 }
+
+
 
 
 

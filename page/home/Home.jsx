@@ -8,6 +8,7 @@ import NextChange from "../../components/nextchange/NextChange";
 import ComingSoon from "../../components/comingSoon/ComingSoon";
 import Partner from "../../components/partner/Partner";
 import Footer from "../../components/footer/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -29,10 +30,13 @@ const Home = () => {
         <ComingSoon />
        
       </div>
+      
+      <Link to="/coming-soom" style={{textDecoration:"none"}}>
       <div className="viewAll">
           <h1>VIEW ALL</h1>
           <span class="material-symbols-outlined">trending_flat</span>
         </div>
+      </Link>
         <div className="foots">
         <Partner/>
         <Footer/>

@@ -1,18 +1,14 @@
 import React, { useState } from 'react'
 import "./poster.css"
-import Trailer from '../trailer/Trailer'
+
 
 
 const Poster = ({nowShow}) => {
 
-  const [openTrailer, setOpenTrailer] = useState(false)
 
-  const handleTrailer = ()=>{
-    setOpenTrailer(!openTrailer)
-  }
+  
   return (
-    <>
-    {!openTrailer?
+   
      <div className="mainPoster">
      <div className="poster">
      <div className="container">
@@ -26,7 +22,7 @@ const Poster = ({nowShow}) => {
                <img src="../../img/ico-ticket.svg" alt="" />
                <span> Buy Ticket </span>
                </div>
-               <div className="icon2" onClick={handleTrailer}>
+               <div className="icon2" >
                <img src="../../img/play-icon.svg" alt="" />
                <span> Play Trailer </span>
                </div>
@@ -47,9 +43,9 @@ const Poster = ({nowShow}) => {
       <h3>{nowShow.rated}</h3>
      </div>
 
-   </div>:
-   <Trailer/>}
-    </>
+   </div>
+  
+    
    
     
   )
