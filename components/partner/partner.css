@@ -7,6 +7,8 @@
     color: #0987be;
     text-transform: uppercase;
     border-bottom: 1px solid #959392;
+    margin-bottom: 1rem;
+    font-weight: 400;
 }
 
 .partner img{
