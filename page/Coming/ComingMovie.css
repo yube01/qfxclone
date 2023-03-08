@@ -1,0 +1,43 @@
+.comingMovie{
+    background-image:url("https://www.qfxcinemas.com/assets/images/bg-body.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    
+    
+}
+.upcoming{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    flex-direction: column;
+
+}
+
+.comingSoon1{
+    background-color: #d8d5d5;
+    text-align: center;
+    padding: 10px 15px;
+    width: 85vw;
+  
+   
+}
+
+.comingSoon1 h1{
+    font-size: 2rem;
+    color: #007e9e;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.upcomingMovie{
+    width: 85vw;
+    background-color: rgba(216,213,213,.57);
+    margin-top: 1rem;
+    display: flex;
+    padding: 5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.footer1{
+    padding: 7rem 7rem 2rem 7rem;
+}
