@@ -1,0 +1,114 @@
+.trailerWrapper{
+    position: relative;
+}
+
+.mainPoster1 {
+    height: 30rem;
+    width: 17rem;
+}
+
+.poster1{
+    position: relative;
+    overflow: hidden;
+    height: 23rem;
+    width: 19rem;
+
+}
+@media  screen and (max-width:991px) {
+    .mainPoster {
+        height: 16rem;
+        width: 11rem;
+    }
+    .mainPoster .poster {
+        height: 13rem;
+        width: 10rem;
+        position: relative;
+    }
+    .poster .container .posterImg img{
+        
+        height: 13rem;
+        width: 10rem;
+    }
+    .container:hover .posterImg img{
+        height: 25rem;
+       }
+    .mainPoster .title h3{
+        font-size: 15px;
+        font-weight: 200;
+        margin-bottom: 0rem;
+    }
+    .poster .container .posterIcon{
+        position: absolute;
+        color: white;
+        top: 12rem;
+        left: -1;
+        z-index: 2;
+    
+    }
+    .poster .container .posterIcon .icons .icon2{
+        margin-left: 0.4rem;
+    }
+}
+
+.poster1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    height: 50%;
+    background: linear-gradient(to bottom,rgba(153,153,153,0) 0,rgba(0,0,0,.7) 100%);
+    z-index: 1;
+}
+
+.container:hover .posterImg1 img{
+ height: 30rem;
+}
+
+
+
+
+
+.posterImg1 img{
+    height: 23rem;
+    width: 18rem;
+    object-fit: cover;
+    transition: height 0.5s;
+}
+
+
+.posterIcon{
+    position: absolute;
+    color: white;
+    top: 21rem;
+    z-index: 2;
+
+}
+.icon2{
+    
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    transition: color 1s;
+}
+.icon2:hover{
+    color: #007bff;
+}
+.icon2 img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.title{
+    margin-top: 1rem;
+    width: 19rem;
+    
+}
+.title h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+ 
+}
+
