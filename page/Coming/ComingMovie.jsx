@@ -42,38 +42,30 @@ const ComingMovie = () => {
           date:"17 MARCH 2023"
         },
         {
-          id:1,
-          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7861",
+          id:5,
+          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7850",
           trailer:"",
-          name:"TU JHOOTI MAIN MAKKARR",
+          name:"SHAZAM! FURY OF THE GODS",
           rated:"(PG)",
-          date:"8 MARCH 2023"
+          date:"17 MARCH 2023"
 
         },
         {
-          id:2,
-          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7871",
+          id:6,
+          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7873",
           trailer:"",
-          name:"JOHN WICK",
+          name:"FAST X",
           rated:"(U)",
-          date:"23 MARCH 2023"
+          date:"19 MAY 2023"
         },
         {
-          id:3,
-          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7872",
+          id:7,
+          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7876",
           trailer:"",
-          name:"BHOLAA",
+          name:"KISI KA BHAI KISI KI JAAN",
           rated:"(U)",
-          date:"30 MARCH 2023"
-        },
-        {
-          id:4,
-          url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7870",
-          trailer:"",
-          name:"KABZAA",
-          rated:"(PG)",
-          date:"17 MARCH 2023"
-        },
+          date:"21 APRIL 2023"
+        }
       ]
   return (
    <div className="comingMovie">
