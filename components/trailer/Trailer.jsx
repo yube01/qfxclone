@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./trailer.css";
 
-const Trailer = () => {
+const Trailer = (nowShow) => {
     const [closeTrailer, setCloseTrailer] = useState(false)
   return (
     <>
@@ -18,11 +18,12 @@ const Trailer = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
+        
       </div>
       <div className="rights">
         <div className="first">
           <div className="title">
-            <span> chhakka panja 4 </span>
+            <span> {nowShow.name}</span>
             <span>(U)</span>
           </div>
           <div className="icon2">
