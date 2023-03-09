@@ -10,7 +10,7 @@ const comingPoster = ({nextComingShow}) => {
           <img src={nextComingShow.url} alt="" />
         
         </div>
-        <div className="posterIcon">
+        <div className="posterIcon2">
         <div className="icons">
              
                 <div className="icon2">
