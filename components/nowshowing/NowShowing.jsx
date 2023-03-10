@@ -7,7 +7,7 @@ const NowShowing = () => {
     {
       id:1,
       url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7847",
-      src:"https://www.youtube.com/embed/V3tEPolMPKQ",
+      link:"https://www.youtube.com/embed/V3tEPolMPKQ",
       name:"CHHAKKA PANJA 4",
       rated:"(U)",
       genre:"Comedy, Drama",
@@ -21,7 +21,7 @@ const NowShowing = () => {
     {
       id:3,
       url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7857",
-      src:"https://www.youtube.com/embed/gnuTqK0E6EE",
+      link:"https://www.youtube.com/embed/gnuTqK0E6EE",
       name:"FULBARI",
       rated:"(PG)",
       genre:"Comedy, Drama",
@@ -34,7 +34,7 @@ const NowShowing = () => {
     {
       id:4,
       url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7875",
-      src:"https://www.youtube.com/embed/AHmCH7iB_IM",
+      link:"https://www.youtube.com/embed/AHmCH7iB_IM",
       name:"CREED III",
       rated:"(U)",
       genre:"Comedy, Drama",

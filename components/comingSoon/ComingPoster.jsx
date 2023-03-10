@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../poster/poster.css"
+import TrailerSoon from "./TrailerSoon"
 
 const comingPoster = ({futureShow}) => {
+  
+  const [openTrailer, setOpenTrailer] = useState(false)
   return (
-   <div className="mainPoster">
+   <div className="trailerPage">
+     {openTrailer &&
+      <TrailerSoon futureShow={futureShow} setOpenTrailer={setOpenTrailer} openTrailer={openTrailer}/>
+      }
+    <div className="mainPoster">
      <div className="poster">
       <div className="container">
         <div className="posterImg">
@@ -13,7 +20,7 @@ const comingPoster = ({futureShow}) => {
         <div className="posterIcon">
         <div className="icons">
              
-                <div className="icon2">
+                <div className="icon2" onClick={()=>{setOpenTrailer(!openTrailer)}} >
                 <img src="../../img/play-icon.svg" alt="" />
                 <span> Play Trailer </span>
                 </div>
@@ -29,6 +36,7 @@ const comingPoster = ({futureShow}) => {
        <h3>{futureShow.date}</h3>
       </div>
 
+   </div>
    </div>
   )
 }

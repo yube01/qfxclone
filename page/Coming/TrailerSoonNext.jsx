@@ -1,7 +1,7 @@
 import React from "react";
-import "./trailer.css";
+import "../../components/trailer/trailer.css";
 
-const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
+const Trailer = ({nextComingShow,setOpenTrailer,openTrailer}) => {
    
    
   return (
@@ -13,7 +13,7 @@ const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
         <iframe
           width="560"
           height="315"
-          src={nowShow.link}
+          src={nextComingShow.link}
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -24,35 +24,32 @@ const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
       <div className="rights">
         <div className="first">
           <div className="title">
-            <span> {nowShow.name}</span>
-            <span>{nowShow.rated}</span>
+            <span> {nextComingShow.name}</span>
+            <span>{nextComingShow.rated}</span>
           </div>
-          <div className="icon4">
-            <img src="../../img/ico-ticket.svg" alt="" />
-            <span> Buy Ticket </span>
-          </div>
+         
         </div>
         <div className="movieDetails">
           <p>
-            <strong>Genre:</strong> {nowShow.genre} </p>
+            <strong>Genre:</strong> {nextComingShow.genre} </p>
           <p>
-            <strong>Run time:</strong> {nowShow.runtime}
+            <strong>Run time:</strong> {nextComingShow.runtime}
           </p>
           <p>
-            <strong>Director:</strong> {nowShow.director}
+            <strong>Director:</strong> {nextComingShow.director}
           </p>
           <p>
-            <strong>Cast:</strong> {nowShow.cast}
+            <strong>Cast:</strong> {nextComingShow.cast}
           </p>
           <p>
-            <strong>Language:</strong> {nowShow.language}
+            <strong>Language:</strong> {nextComingShow.language}
           </p>
         </div>
         <div className="description">
           <p>
             <strong>SYNOPSIS: </strong>
             <br />
-            <span className="mp">{nowShow.synopsis}</span>
+            <span className="mp">{nextComingShow.synopsis}</span>
           </p>
         </div>
         <button onClick={()=>{

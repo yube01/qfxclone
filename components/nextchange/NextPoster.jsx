@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../poster/poster.css"
+import TrailerNext from './TrailerNext'
 
 const NextPoster = ({nextShow}) => {
+
+  const [openTrailer, setOpenTrailer] = useState(false)
   return (
-    <div className="mainPoster">
+    <div className="trailerPage">
+       {openTrailer &&
+      <TrailerNext nextShow={nextShow} setOpenTrailer={setOpenTrailer} openTrailer={openTrailer}/>
+      }
+      <div className="mainPoster">
       <div className="poster">
       <div className="container">
         <div className="posterImg">
@@ -16,7 +23,7 @@ const NextPoster = ({nextShow}) => {
                 <img src="../../img/ico-ticket.svg" alt="" />
                 <span> Buy Ticket </span>
                 </div>
-                <div className="icon2">
+                <div className="icon2" onClick={()=>{setOpenTrailer(!openTrailer)}} >
                 <img src="../../img/play-icon.svg" alt="" />
                 <span> Play Trailer </span>
                 </div>
@@ -30,6 +37,7 @@ const NextPoster = ({nextShow}) => {
        <h3>{nextShow.name}</h3>
        <h3>{nextShow.rated}</h3>
       </div>
+    </div>
     </div>
   )
 }
