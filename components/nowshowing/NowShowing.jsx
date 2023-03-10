@@ -40,10 +40,7 @@ const NowShowing = () => {
           <Poster nowShow={nowShow} key={nowShow.id}/>
         ))}
 
-        
-       
-        
-    </div>
+        </div>
   )
 }
 

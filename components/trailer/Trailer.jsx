@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./trailer.css";
 
-const Trailer = (nowShow) => {
+const Trailer = ({nowShow}) => {
     const [closeTrailer, setCloseTrailer] = useState(false)
+   
   return (
     <>
     {!closeTrailer?
@@ -16,7 +17,7 @@ const Trailer = (nowShow) => {
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         
       </div>
@@ -59,7 +60,8 @@ const Trailer = (nowShow) => {
         </div>
         <button onClick={()=>{
           setCloseTrailer(!closeTrailer)
-        }} >
+        }}
+         >
           Close
         </button>
       </div>

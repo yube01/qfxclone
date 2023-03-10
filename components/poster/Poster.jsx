@@ -5,15 +5,15 @@ import Trailer from "../trailer/Trailer"
 
 const Poster = ({nowShow}) => {
 
-  const [openTrailer, setOpenTrailer] = useState(false)
+  const [openTrailer, setOpenTrailer] = useState(true)
   
 
   
   return (
    
      <div className="trailerPage">
-      {openTrailer && 
-      <Trailer/>
+      {openTrailer &&
+      <Trailer nowShow={nowShow}/>
       }
       <div className="mainPoster">
      <div className="poster">
