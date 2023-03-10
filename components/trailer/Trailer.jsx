@@ -27,7 +27,7 @@ const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
             <span> {nowShow.name}</span>
             <span>{nowShow.rated}</span>
           </div>
-          <div className="icon2">
+          <div className="icon4">
             <img src="../../img/ico-ticket.svg" alt="" />
             <span> Buy Ticket </span>
           </div>
@@ -51,7 +51,8 @@ const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
         <div className="description">
           <p>
             <strong>SYNOPSIS: </strong>
-            <br />{nowShow.synopsis}
+            <br />
+            <span className="mp">{nowShow.synopsis}</span>
           </p>
         </div>
         <button onClick={()=>{
