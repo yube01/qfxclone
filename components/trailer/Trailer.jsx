@@ -13,7 +13,7 @@ const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/V3tEPolMPKQ"
+          src={nowShow.src}
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -25,7 +25,7 @@ const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
         <div className="first">
           <div className="title">
             <span> {nowShow.name}</span>
-            <span>(U)</span>
+            <span>{nowShow.rated}</span>
           </div>
           <div className="icon2">
             <img src="../../img/ico-ticket.svg" alt="" />
@@ -34,28 +34,24 @@ const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
         </div>
         <div className="movieDetails">
           <p>
-            <strong>Genre:</strong> Comedy, Drama
+            <strong>Genre:</strong> {nowShow.genre} </p>
+          <p>
+            <strong>Run time:</strong> {nowShow.runtime}
           </p>
           <p>
-            <strong>Run time:</strong> 2hrs 32min
+            <strong>Director:</strong> {nowShow.director}
           </p>
           <p>
-            <strong>Director:</strong> Hem Raj BC
+            <strong>Cast:</strong> {nowShow.cast}
           </p>
           <p>
-            <strong>Cast:</strong> Deepak Raj Giri, Deepa Shree Niraula, Kedar
-            Ghimire
-          </p>
-          <p>
-            <strong>Language:</strong> Nepali
+            <strong>Language:</strong> {nowShow.language}
           </p>
         </div>
         <div className="description">
           <p>
             <strong>SYNOPSIS: </strong>
-            <br /> Chhakka Panja 4 is a comedy drama movie starring Deepak Raj
-            Giri, Dipaa Shree Niroula, Nirmal Sharma, Buddhi Tamang, Raj
-            Acharya, Bedana Rai, Sushma Niraula and directed by Hemraj B.C.
+            <br />{nowShow.synopsis}
           </p>
         </div>
         <button onClick={()=>{

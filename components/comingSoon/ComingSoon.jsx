@@ -7,7 +7,7 @@ const ComingSoon = () => {
     {
       id: 1,
       url: "https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7861",
-      trailer: "",
+      src: "https://www.youtube.com/embed/Cx_Dtwn4ayw",
       name: "TU JHOOTI MAIN MAKKARR",
       rated: "(PG)",
       date: "8 MARCH 2023",
