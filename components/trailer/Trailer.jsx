@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./trailer.css";
 
-const Trailer = ({nowShow}) => {
-    const [closeTrailer, setCloseTrailer] = useState(false)
+const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
+   
    
   return (
     <>
-    {!closeTrailer?
+    {openTrailer?
     <div className="trailer">
     <div className="container">
       <div className="lefts">
@@ -55,11 +55,11 @@ const Trailer = ({nowShow}) => {
             <strong>SYNOPSIS: </strong>
             <br /> Chhakka Panja 4 is a comedy drama movie starring Deepak Raj
             Giri, Dipaa Shree Niroula, Nirmal Sharma, Buddhi Tamang, Raj
-            Acharya, Bedana Rai, Sushma Niraula and directed by Hemraj B.C.{" "}
+            Acharya, Bedana Rai, Sushma Niraula and directed by Hemraj B.C.
           </p>
         </div>
         <button onClick={()=>{
-          setCloseTrailer(!closeTrailer)
+          setOpenTrailer(!openTrailer)
         }}
          >
           Close

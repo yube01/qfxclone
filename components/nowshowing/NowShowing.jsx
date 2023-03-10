@@ -7,30 +7,55 @@ const NowShowing = () => {
     {
       id:1,
       url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7847",
-      trailer:"",
+      src:"https://www.youtube.com/embed/V3tEPolMPKQ",
       name:"CHHAKKA PANJA 4",
-      rated:"(U)"
+      rated:"(U)",
+      genre:"Comedy, Drama",
+      runtime:"2hrs 32min",
+      director:"Hem Raj BC",
+      cast:"Deepak Raj Giri, Deepa Shree Niraula, Kedar Ghimire",
+      language:"Nepali",
+      synopsis:"Chhakka Panja 4 is a comedy drama movie starring Deepak Raj   Giri, Dipaa Shree Niroula, Nirmal Sharma, Buddhi Tamang, Raj  Acharya, Bedana Rai, Sushma Niraula and directed by Hemraj B.C."
     },
     {
       id:2,
       url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7862",
       trailer:"",
       name:"2.0 CHHADKE",
-      rated:"(PG)"
+      rated:"(PG)",
+      genre:"Comedy, Drama",
+      runtime:"2hrs 32min",
+      director:"Hem Raj BC",
+      cast:"Deepak Raj Giri, Deepa Shree Niraula, Kedar Ghimire",
+      language:"Nepali",
+      synopsis:"Chhakka Panja 4 is a comedy drama movie starring Deepak Raj   Giri, Dipaa Shree Niroula, Nirmal Sharma, Buddhi Tamang, Raj  Acharya, Bedana Rai, Sushma Niraula and directed by Hemraj B.C."
     },
     {
       id:3,
       url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7857",
       trailer:"",
       name:"FULBARI",
-      rated:"(PG)"
+      rated:"(PG)",
+      genre:"Comedy, Drama",
+      runtime:"2hrs 32min",
+      director:"Hem Raj BC",
+      cast:"Deepak Raj Giri, Deepa Shree Niraula, Kedar Ghimire",
+      language:"Nepali",
+      synopsis:"Chhakka Panja 4 is a comedy drama movie starring Deepak Raj   Giri, Dipaa Shree Niroula, Nirmal Sharma, Buddhi Tamang, Raj  Acharya, Bedana Rai, Sushma Niraula and directed by Hemraj B.C."
     },
     {
       id:4,
       url:"https://api.qfxcinemas.com/api/public/ThumbnailImage?eventId=7875",
       trailer:"",
       name:"CREED III",
-      rated:"(U)"
+      rated:"(U)",
+      genre:"Comedy, Drama",
+      runtime:"2hrs 32min",
+      director:"Hem Raj BC",
+      cast:"Deepak Raj Giri, Deepa Shree Niraula, Kedar Ghimire",
+      language:"Nepali",
+      synopsis:"Chhakka Panja 4 is a comedy drama movie starring Deepak Raj   Giri, Dipaa Shree Niroula, Nirmal Sharma, Buddhi Tamang, Raj  Acharya, Bedana Rai, Sushma Niraula and directed by Hemraj B.C."
+
     },
   ]
   return (
