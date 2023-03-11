@@ -60,7 +60,7 @@
     z-index: 1;
 }
 
-.container:hover .posterImg img{
+.poster:hover .posterImg img{
  height: 35rem;
 }
 

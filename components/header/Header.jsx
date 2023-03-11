@@ -34,7 +34,9 @@ const Header = () => {
         </div>
         <div className="right">
           <span> Login </span>
-          <span> Register </span>
+        <Link to="/register" style={{textDecoration:"none",color:"inherit"}}>
+        <span> Register </span>
+        </Link>
         </div>
         <div className="right2">
           <img src="../../img/login-ico.png" alt="" />
