@@ -9,7 +9,63 @@ const Register = () => {
     <ScrollTicker/>
     <Header/>
     <div className="registerPage">
-      page
+      <div className="wrapper1">
+        <h1> Register</h1>
+       <form action="">
+       <div className="inputForm">
+          <img src="" alt="" />
+          <input type="text" placeholder='Name' />
+
+        </div>
+        <div className="inputForm">
+          <img src="" alt="" />
+          <input type="text" placeholder='Mobile' />
+
+        </div>
+        <div className="inputForm">
+          <img src="" alt="" />
+          <input type="email" placeholder='Email' />
+
+        </div>
+        <div className="inputForm">
+          <img src="" alt="" />
+          <input type="password" placeholder='Password' />
+
+        </div>
+        <div className="inputForm">
+          <img src="" alt="" />
+          <input type="password" placeholder='Confirm Password' />
+
+        </div>
+        <div className="inputForm">
+          <img src="" alt="" />
+          <input type="text" placeholder='Name' />
+
+        </div>
+        
+
+       </form>
+       <div className="location">
+        <select name="location" id="location">
+          <option disabled value>Loaction</option>
+          <option value="Biratnagar">Biratnagar</option>
+          <option value="Birtamod">Birtamod</option>
+          <option value="Butwal">Butwal</option>
+          <option value="Damauli">Damauli</option>
+          <option value="Kathmandu Valley">Kathmandu Valley</option>
+          <option value="Narayanghat">Narayanghat</option>
+          <option value="Nepalgunj">Nepalgunj</option>
+        </select>
+       </div>
+       <div className="policyTerms">
+        <span className='checkMark'></span>
+        <span>
+          I have read and accepted the Terms of Use and Privacy Policy
+        </span>
+       </div>
+       <button className='signup'></button>
+      
+      </div>
     </div>
     <Footer/>
    </div>
