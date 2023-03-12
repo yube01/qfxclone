@@ -1,5 +1,5 @@
 
-
+import Login from "../page/login/Login"
 import './App.css'
 import Home from "../page/home/Home"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -20,6 +20,7 @@ function App() {
           <Route path='/coming-soom'element={<ComingMovie/>}/>
           <Route path='/terms-of-use' element={<Policy/>}/>
           <Route path='/register' element={<Register/>}/>
+          <Route path='/login' element={<Login/>} />
         </Routes>
       </BrowserRouter>
     

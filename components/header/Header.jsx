@@ -33,7 +33,9 @@ const Header = () => {
           </div>
         </div>
         <div className="right">
+          <Link to="/login" style={{textDecoration:"none",color:"inherit"}}>
           <span> Login </span>
+          </Link>
         <Link to="/register" style={{textDecoration:"none",color:"inherit"}}>
         <span> Register </span>
         </Link>
