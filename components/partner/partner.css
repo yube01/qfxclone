@@ -1,6 +1,7 @@
 .partner{
     display: flex;
     flex-direction: column;
+    padding: 2rem 6rem 0 6rem ;
 }
 .partner h1{
     font-size: 1.3rem;

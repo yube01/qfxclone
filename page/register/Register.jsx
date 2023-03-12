@@ -4,6 +4,7 @@ import ScrollTicker from "../../components/scrollticker/ScrollTicker";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ReCAPTCHA from "react-google-recaptcha";
+import Partner from "../../components/partner/Partner";
 const Register = () => {
   const [veriy, setVerify] = useState(false)
   const onChange=(value) =>{
@@ -73,6 +74,7 @@ const Register = () => {
           </button>
         </div>
       </div>
+      <Partner/>
       <Footer />
     </div>
   );

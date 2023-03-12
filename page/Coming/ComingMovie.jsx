@@ -125,6 +125,7 @@ const ComingMovie = () => {
     <div className="comingMovie">
       <ScrollTicker />
       <Header />
+      <div className="wrapper2">
       <div className="upcoming">
         <div className="comingSoon1">
           <h1>coming soon</h1>
@@ -138,10 +139,12 @@ const ComingMovie = () => {
           ))}
         </div>
       </div>
-      <div className="footer1">
+      </div>
+ 
+      
         <Partner />
         <Footer />
-      </div>
+      
     </div>
   );
 };

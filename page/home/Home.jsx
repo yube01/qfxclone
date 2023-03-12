@@ -37,10 +37,10 @@ const Home = () => {
           <span class="material-symbols-outlined">trending_flat</span>
         </div>
       </Link>
-        <div className="foots">
+        
         <Partner/>
         <Footer/>
-        </div>
+        
        
     </div>
   );
