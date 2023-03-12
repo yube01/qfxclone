@@ -20,27 +20,27 @@ const Register = () => {
           <h1> Register</h1>
           <form action="">
             <div className="inputForm">
-              <img src="" alt="" />
+              <img src="../../img/user1.svg" alt="" />
               <input type="text" placeholder="Name" />
             </div>
             <div className="inputForm">
-              <img src="" alt="" />
+              <img src="../../img/phone.svg" alt="" />
               <input type="text" placeholder="Mobile" />
             </div>
             <div className="inputForm">
-              <img src="" alt="" />
+              <img src="../../img/email.svg" alt="" />
               <input type="email" placeholder="Email" />
             </div>
             <div className="inputForm">
-              <img src="" alt="" />
+              <img src="../../img/@.png" alt="" />
               <input type="password" placeholder="Password" />
             </div>
             <div className="inputForm">
-              <img src="" alt="" />
+              <img src="../../img/@.png" alt="" />
               <input type="password" placeholder="Confirm Password" />
             </div>
             <div className="inputForm">
-              <img src="" alt="" />
+              <img src="../../img/pin.svg" alt="" />
               <input type="text" placeholder="Name" />
             </div>
           </form>
@@ -70,7 +70,9 @@ const Register = () => {
               I have read and accepted the Terms of Use and Privacy Policy
             </span>
           </div>
-          <button className="signup" disabled={!veriy}></button>
+          <button className="signup" disabled={!veriy}>
+            Sign up
+          </button>
         </div>
       </div>
       <Footer />
