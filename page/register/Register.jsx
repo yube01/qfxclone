@@ -41,23 +41,21 @@ const Register = () => {
             </div>
             <div className="inputForm">
               <img src="../../img/pin.svg" alt="" />
-              <input type="text" placeholder="Name" />
+              <select name="location" id="location">
+              <option disabled value>
+              --Select Location--
+              </option>
+              <option className="option1" value="Biratnagar">Biratnagar</option>
+              <option className="option1" value="Birtamod">Birtamod</option>
+              <option className="option1" value="Butwal">Butwal</option>
+              <option className="option1" value="Damauli">Damauli</option>
+              <option className="option1" value="Kathmandu Valley">Kathmandu Valley</option>
+              <option className="option1" value="Narayanghat">Narayanghat</option>
+              <option className="option1" value="Nepalgunj">Nepalgunj</option>
+            </select>
             </div>
           </form>
-          <div className="location">
-            <select name="location" id="location">
-              <option disabled value>
-                Loaction
-              </option>
-              <option value="Biratnagar">Biratnagar</option>
-              <option value="Birtamod">Birtamod</option>
-              <option value="Butwal">Butwal</option>
-              <option value="Damauli">Damauli</option>
-              <option value="Kathmandu Valley">Kathmandu Valley</option>
-              <option value="Narayanghat">Narayanghat</option>
-              <option value="Nepalgunj">Nepalgunj</option>
-            </select>
-          </div>
+          
           <div className="recapcha">
             <ReCAPTCHA
               sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"

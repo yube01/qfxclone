@@ -10,12 +10,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 5rem;
 }
-
-.registerPage{
-    padding: 4rem 0;
-}
-
 .wrapper1 h1 {
     color: #007e9e;
     text-transform: uppercase;
@@ -26,17 +22,40 @@
 .inputForm{
     margin-top: 3rem;
     position: relative;
+    margin-bottom: 3rem;
 }
 
 .inputForm input{
-    padding: 1.4rem 12rem;
+    padding: 1.4rem 11rem 1.4rem 12rem;
     outline: none;
     border: none;
     color: #7a7b7f;
     background-color: #c4c2c2;
     font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
 }
+.inputForm select{
+    padding: 1.4rem 15rem 1.4rem 12rem;
+    outline: none;
+    border: none;
+    color: #7a7b7f;
+    background-color: #c4c2c2;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.inputForm option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
 .inputForm img{
     position: absolute;
     width: 6rem;
@@ -45,4 +64,11 @@
     left: -1rem;
     background: transparent;
 
+}
+.recapcha{
+    margin-bottom: 1rem;
+}
+.signup {
+    padding: 1.4rem 11rem 1.4rem 12rem;
+    margin-right: 25rem;
 }
