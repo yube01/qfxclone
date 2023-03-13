@@ -1,4 +1,4 @@
-import {getauth,GoogleAuthProvider} from "firebase/auth"
+import {getAuth,GoogleAuthProvider} from "firebase/auth"
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
@@ -12,7 +12,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const auth = getauth()
+export const auth = getAuth(app)
 export const provider = new GoogleAuthProvider()
 
 export default app

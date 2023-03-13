@@ -5,7 +5,25 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ReCAPTCHA from "react-google-recaptcha";
 import Partner from "../../components/partner/Partner";
+import {auth,provider} from "../../components/firebase"
+import {signInWithEmailAndPassword, signInWithPopup} from "firebase/auth"
+
 const Register = () => {
+
+
+
+
+
+  const signInWithGoogle =()=>{
+   
+    signInWithPopup(auth,provider).then((result)=>{
+      console.log(result)
+    }).catch((error)=>{console.log(error)})
+  }
+
+
+
+
   const [veriy, setVerify] = useState(false)
   const onChange=(value) =>{
     console.log("Captcha value:", value);
@@ -19,10 +37,12 @@ const Register = () => {
       <div className="registerPage">
         <div className="wrapper1">
           <h1> Register</h1>
-          <form action="">
+          <form >
             <div className="inputForm">
               <img src="../../img/user1.svg" alt="" />
-              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Name" value={email}
+              
+              />
             </div>
             <div className="inputForm">
               <img src="../../img/phone.svg" alt="" />
@@ -34,7 +54,9 @@ const Register = () => {
             </div>
             <div className="inputForm">
               <img src="../../img/@.png" alt="" />
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" value={password}
+           
+              />
             </div>
             <div className="inputForm">
               <img src="../../img/@.png" alt="" />
@@ -73,6 +95,9 @@ const Register = () => {
           </div>
           <button className="signup" disabled={!veriy}>
             Sign up
+          </button>
+          <button onClick={signInWithGoogle}>
+            Sign up with google
           </button>
         </div>
       </div>
