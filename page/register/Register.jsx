@@ -6,7 +6,7 @@ import Footer from "../../components/footer/Footer";
 import ReCAPTCHA from "react-google-recaptcha";
 import Partner from "../../components/partner/Partner";
 import {auth,provider} from "../../components/firebase"
-import {signInWithEmailAndPassword, signInWithPopup} from "firebase/auth"
+import { signInWithPopup} from "firebase/auth"
 
 const Register = () => {
 
@@ -40,7 +40,7 @@ const Register = () => {
           <form >
             <div className="inputForm">
               <img src="../../img/user1.svg" alt="" />
-              <input type="text" placeholder="Name" value={email}
+              <input type="text" placeholder="Name" 
               
               />
             </div>
@@ -54,7 +54,7 @@ const Register = () => {
             </div>
             <div className="inputForm">
               <img src="../../img/@.png" alt="" />
-              <input type="password" placeholder="Password" value={password}
+              <input type="password" placeholder="Password" 
            
               />
             </div>

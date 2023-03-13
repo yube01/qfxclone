@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./login.css";
 import Partner from "../../components/partner/Partner";
 import ScrollTicker from "../../components/scrollticker/ScrollTicker";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
+import {signInWithEmailAndPassword} from "firebase/auth"
+import {auth} from "../../components/firebase"
 const Login = () => {
 
 
