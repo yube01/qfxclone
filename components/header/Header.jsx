@@ -11,10 +11,12 @@ const Header = () => {
         </div>
         </Link>
         <div className="center">
+          <Link to="/home" style={{textDecoration:"none"}}>
           <div className="icon">
             <img src="../../img/ico-movie.svg" alt="" />
             <span> Movies</span>
           </div>
+          </Link>
           <div className="icon">
             <img src="../../img/ico-cinema.svg" alt="" />
             <span> Locations</span>
