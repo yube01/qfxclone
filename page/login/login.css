@@ -14,7 +14,33 @@
 }
 .forgotPass{
     margin-top: 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.forgotPass:hover{
+    color: #007e9e;
+
 }
 .registerPage{
     margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.registerPage:hover{
+    color: #007e9e;
+}
+.wrapper2 h1{
+    color: #007e9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    background:#d8d5d5;
+    padding: 1.3rem 17rem;
+}
+
+.wrapper2 button{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem 17.5rem;
 }
