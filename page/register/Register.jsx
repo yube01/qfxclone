@@ -64,9 +64,11 @@ const Register = () => {
             />
           </div>
           <div className="policyTerms">
-            <span className="checkMark"></span>
+            <span className="checkMark">
+              <input type="checkbox" className="checks" />
+            </span>
             <span>
-              I have read and accepted the Terms of Use and Privacy Policy
+              I have read and accepted the <a href="https://www.qfxcinemas.com/terms-of-use">Terms of Use</a> and  <a href="https://www.qfxcinemas.com/privacy">Privacy Policy</a> 
             </span>
           </div>
           <button className="signup" disabled={!veriy}>

@@ -27,7 +27,7 @@ const Login = () => {
         <span>Reset/Forgot Password?</span>
       </div>
       <Link to="/register" style={{ textDecoration: "none", color: "inherit" }}>
-        <div className="registerPage">
+        <div className="registerPage1">
           Don't have a QFX Account? Register here.
         </div>
       </Link>

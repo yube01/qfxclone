@@ -22,13 +22,13 @@
     color: #007e9e;
 
 }
-.registerPage{
+.registerPage1{
     margin-top: 2rem;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
 
-.registerPage:hover{
+.registerPage1:hover{
     color: #007e9e;
 }
 .wrapper2 h1{
