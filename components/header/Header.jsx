@@ -13,13 +13,13 @@ const Header = () => {
   return (
     <div className="header">
       <div className="container">
-        <Link to="/home">
+        <Link to="/">
         <div className="left">
           <img src={qfx} alt="" />
         </div>
         </Link>
         <div className="center">
-          <Link to="/home" style={{textDecoration:"none"}}>
+          <Link to="/" style={{textDecoration:"none"}}>
           <div className="icon">
             <img src={m1} alt="" />
             <span> Movies</span>

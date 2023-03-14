@@ -6,7 +6,8 @@ import t1 from "../../src/assets/img/ico-ticket.svg"
 import l2 from "../../src/assets/img/ico-loyalty.svg"
 import s1 from "../../src/assets/img/ico-support.svg"
 import { Link } from "react-router-dom";
-
+import d1 from "../../src/assets/img/ico-ticket.svg"
+import d2 from "../../src/assets/img/play-icon.svg"
 const Slider = () => {
 
 
@@ -52,7 +53,7 @@ const Slider = () => {
   return (
     <div className="slider">
            <div className="center">
-          <Link to="/home" style={{textDecoration:"none"}}>
+          <Link to="/" style={{textDecoration:"none"}}>
           <div className="icon">
             <img src={m1} alt="" />
             <span> Movies</span>
@@ -83,11 +84,11 @@ const Slider = () => {
             <h1>{slides[index].name}</h1>
             <div className="icons">
                 <div className="icon1">
-                <img src="../../src/assets/img/ico-ticket.svg" alt="" />
+                <img src={d1} alt="" />
                 <span> BUY TICKET </span>
                 </div>
                 <div className="icon1">
-                <img src="../../src/assets/img/play-icon.svg" alt="" />
+                <img src={d2} alt="" />
                 <span> PLAY TRAILER </span>
                 </div>
                 

@@ -7,6 +7,8 @@ import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
 import {signInWithEmailAndPassword} from "firebase/auth"
 import {auth} from "../../components/firebase"
+import o1 from "../../src/assets/img/user1.svg"
+import o2 from "../../src/assets/img/@.png"
 const Login = () => {
 
 
@@ -30,13 +32,13 @@ const Login = () => {
         <h1> Login</h1>
         <form onSubmit={signIn}>
           <div className="inputForm">
-            <img src="../../img/user1.svg" alt="" />
+            <img src={o1} alt="" />
             <input type="text" placeholder="Name"
             value={email}
             onChange={(e)=>setEmail(e.target.value)} />
           </div>
           <div className="inputForm">
-            <img src="../../img/@.png" alt="" />
+            <img src={o2} alt="" />
             <input type="password" placeholder="Password"
             value={password} 
             

@@ -7,6 +7,20 @@ import ReCAPTCHA from "react-google-recaptcha";
 import Partner from "../../components/partner/Partner";
 import {auth,provider} from "../../components/firebase"
 import { signInWithPopup} from "firebase/auth"
+import n1 from "../../src/assets/img/user1.svg"
+import n2 from "../../src/assets/img/phone.svg"
+import n3 from "../../src/assets/img/email.svg"
+import n4 from "../../src/assets/img/@.png"
+import n5 from "../../src/assets/img/@.png"
+import n6 from "../../src/assets/img/pin.svg"
+
+
+
+
+
+
+
+
 
 const Register = () => {
 
@@ -39,31 +53,31 @@ const Register = () => {
           <h1> Register</h1>
           <form >
             <div className="inputForm">
-              <img src="../../img/user1.svg" alt="" />
+              <img src={n1} alt="" />
               <input type="text" placeholder="Name" 
               
               />
             </div>
             <div className="inputForm">
-              <img src="../../img/phone.svg" alt="" />
+              <img src={n2} alt="" />
               <input type="text" placeholder="Mobile" />
             </div>
             <div className="inputForm">
-              <img src="../../img/email.svg" alt="" />
+              <img src={n3} alt="" />
               <input type="email" placeholder="Email" />
             </div>
             <div className="inputForm">
-              <img src="../../img/@.png" alt="" />
+              <img src={n4} alt="" />
               <input type="password" placeholder="Password" 
            
               />
             </div>
             <div className="inputForm">
-              <img src="../../img/@.png" alt="" />
+              <img src={n5} alt="" />
               <input type="password" placeholder="Confirm Password" />
             </div>
             <div className="inputForm">
-              <img src="../../img/pin.svg" alt="" />
+              <img src={n6} alt="" />
               <select name="location" id="location">
               <option disabled value>
               --Select Location--
