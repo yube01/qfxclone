@@ -76,6 +76,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .policyTerms span a{
@@ -88,4 +89,17 @@ input.checks{
     width: 1.5rem;
     margin-right: 1rem;
     border-radius: 50%;
+}
+
+.wrapper1 .inputForm .submit1{
+    padding: 1rem 6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 11rem;
+    color: white;
+    font-weight: 500;
+    background-color: grey;
+}
+.g1{
+    display: none;
 }

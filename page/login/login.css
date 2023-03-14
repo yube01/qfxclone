@@ -13,7 +13,7 @@
     margin-bottom: 5rem;
 }
 .forgotPass{
-    margin-top: 2rem;
+  
     font-size: 1.3rem;
     cursor: pointer;
     transition: 0.5s ease-in-out;
@@ -39,8 +39,15 @@
     padding: 1.3rem 17rem;
 }
 
-.wrapper2 button{
-    font-size: 1.6rem;
+
+.wrapper2 .inputForm .submit1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 5rem 1rem 5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 13rem;
+    color: white;
     font-weight: 500;
-    padding: 1rem 17.5rem;
+    background-color: grey;
 }

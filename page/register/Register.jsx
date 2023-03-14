@@ -26,6 +26,7 @@ const Register = () => {
 
   const[email,setEmail]= useState("")
   const [password, setPassword] = useState("")
+  const [cpassword, setCpassword] = useState("")
   const [name,setName]= useState("")
   const [number,setNumber] =useState("")
 
@@ -91,8 +92,8 @@ const Register = () => {
             <div className="inputForm">
               <img src={n5} alt="" />
               <input type="password" placeholder="Confirm Password"
-                value={password}
-                onChange={(e)=>setPassword(e.target.value)} />
+                value={cpassword}
+                onChange={(e)=>setCpassword(e.target.value)} />
             </div>
             <div className="inputForm">
               <img src={n6} alt="" />
@@ -109,10 +110,7 @@ const Register = () => {
               <option className="option1" value="Nepalgunj">Nepalgunj</option>
             </select>
             </div>
-            <input type="submit" />
-          </form>
-          
-          <div className="recapcha">
+            <div className="recapcha">
             <ReCAPTCHA
               sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
               onChange={onChange}
@@ -126,10 +124,16 @@ const Register = () => {
               I have read and accepted the <a href="https://www.qfxcinemas.com/terms-of-use">Terms of Use</a> and  <a href="https://www.qfxcinemas.com/privacy">Privacy Policy</a> 
             </span>
           </div>
-          <button className="signup" disabled={!veriy}>
-            Sign up
-          </button>
-          <button onClick={signInWithGoogle}>
+            <div className="inputForm">
+            <input type="submit" value="sign up"disabled={!veriy} className="submit1" />
+            </div>
+            
+          </form>
+          
+         
+         
+          
+          <button onClick={signInWithGoogle} className="g1">
             Sign up with google
           </button>
         </div>
