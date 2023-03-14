@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "../poster/poster.css"
 import TrailerSoon from "./TrailerSoon"
-
+import Play from "../../src/assets/img/play-icon.svg"
 const comingPoster = ({futureShow}) => {
   
   const [openTrailer, setOpenTrailer] = useState(false)
@@ -21,7 +21,7 @@ const comingPoster = ({futureShow}) => {
         <div className="icons">
              
                 <div className="icon2" onClick={()=>{setOpenTrailer(!openTrailer)}} >
-                <img src="../../img/play-icon.svg" alt="" />
+                <img src={Play} alt="" />
                 <span> Play Trailer </span>
                 </div>
                 

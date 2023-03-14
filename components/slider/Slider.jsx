@@ -1,5 +1,12 @@
 import React, { useState } from "react";
 import "./slider.css";
+import m1 from "../../src/assets/img/ico-movie.svg"
+import l1 from "../../src/assets/img/ico-cinema.svg"
+import t1 from "../../src/assets/img/ico-ticket.svg"
+import l2 from "../../src/assets/img/ico-loyalty.svg"
+import s1 from "../../src/assets/img/ico-support.svg"
+import { Link } from "react-router-dom";
+
 const Slider = () => {
 
 
@@ -44,25 +51,27 @@ const Slider = () => {
 
   return (
     <div className="slider">
-          <div className="center">
+           <div className="center">
+          <Link to="/home" style={{textDecoration:"none"}}>
           <div className="icon">
-            <img src="../../img/ico-movie.svg" alt="" />
+            <img src={m1} alt="" />
             <span> Movies</span>
           </div>
+          </Link>
           <div className="icon">
-            <img src="../../img/ico-cinema.svg" alt="" />
+            <img src={l1} alt="" />
             <span> Locations</span>
           </div>
           <div className="icon">
-            <img src="../../img/ico-ticket.svg" alt="" />
+            <img src={t1} alt="" />
             <span> My Tickets</span>
           </div>
           <div className="icon">
-            <img src="../../img/ico-loyalty.svg" alt="" />
+            <img src={l2} alt="" />
             <span> My Loyality</span>
           </div>
           <div className="icon">
-            <img src="../../img/ico-support.svg" alt="" />
+            <img src={s1} alt="" />
             <span> Support</span>
           </div>
         </div>
@@ -74,21 +83,21 @@ const Slider = () => {
             <h1>{slides[index].name}</h1>
             <div className="icons">
                 <div className="icon1">
-                <img src="../../img/ico-ticket.svg" alt="" />
+                <img src="../../src/assets/img/ico-ticket.svg" alt="" />
                 <span> BUY TICKET </span>
                 </div>
                 <div className="icon1">
-                <img src="../../img/play-icon.svg" alt="" />
+                <img src="../../src/assets/img/play-icon.svg" alt="" />
                 <span> PLAY TRAILER </span>
                 </div>
                 
             </div>
         </div>
         <div className="increase">
-          <img onClick={nextSlide} src="../../img/arrow.png"/>
+          <img onClick={nextSlide} src="../../src/assets/img/arrow.png"/>
         </div>
         <div className="decrease">
-          <img onClick={prevSlide}src="../../img/right-arrow.png"/>
+          <img onClick={prevSlide}src="../../src/assets/img/right-arrow.png"/>
         </div>
       </div>
     </div>

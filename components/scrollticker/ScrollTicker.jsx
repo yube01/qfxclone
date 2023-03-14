@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./scrolltiker.css";
-import cross from "../../img/cross.png";
+import cross from "../../src/assets/img/cross.png";
 
 const ScrollTicker = () => {
   const [closeTicker, setCloseTicker] = useState(false);

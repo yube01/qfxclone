@@ -1,6 +1,10 @@
 import React from 'react'
 import "./footer.css"
 import Footer2 from '../footer2/Footer2'
+import Google from "../../src/assets/img/qfx-google-play.png"
+import G1 from "../../src/assets/img/qfx-ios-store.png"
+import Playstore from "../../src/assets/img/googleplay.png"
+import p1 from "../../src/assets/img/appstore.png"
 const Footer = () => {
   return (
     <div className="footer">
@@ -47,14 +51,14 @@ const Footer = () => {
                 </ul>
                 <div className="qrCode">
                     <div className="big">
-                        <a href="https://play.google.com/store/apps/details?id=com.exolutus.qfxcinemas&hl=en" target="_blank" rel="noopener noreferrer">   <img src="../../img/qfx-google-play.png" alt="" /></a>
-                        <a href="https://apps.apple.com/np/app/qfx-cinema/id1092931043" target="_blank" rel="noopener noreferrer"><img src="../../img/qfx-ios-store.png" alt="" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.exolutus.qfxcinemas&hl=en" target="_blank" rel="noopener noreferrer">   <img src={Google} alt="" /></a>
+                        <a href="https://apps.apple.com/np/app/qfx-cinema/id1092931043" target="_blank" rel="noopener noreferrer"><img src={G1} alt="" /></a>
                         
                        
                     </div>
                     <div className="small">
-                        <a href="https://play.google.com/store/apps/details?id=com.exolutus.qfxcinemas&hl=en" target="_blank" rel="noopener noreferrer"> <img src="../../img/googleplay.png" alt="" /></a>
-                        <a href="https://apps.apple.com/np/app/qfx-cinema/id1092931043" target="_blank" rel="noopener noreferrer"><img src="../../img/appstore.png" alt="" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.exolutus.qfxcinemas&hl=en" target="_blank" rel="noopener noreferrer"> <img src={Playstore} alt="" /></a>
+                        <a href="https://apps.apple.com/np/app/qfx-cinema/id1092931043" target="_blank" rel="noopener noreferrer"><img src={p1} alt="" /></a>
                         
                      
                     </div>

@@ -1,36 +1,44 @@
 import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
+import qfx from "../../src/assets/img/logo.svg"
+import m1 from "../../src/assets/img/ico-movie.svg"
+import l1 from "../../src/assets/img/ico-cinema.svg"
+import t1 from "../../src/assets/img/ico-ticket.svg"
+import l2 from "../../src/assets/img/ico-loyalty.svg"
+import s1 from "../../src/assets/img/ico-support.svg"
+import l3 from "../../src/assets/img/login-ico.png"
+import r1 from "../../src/assets/img/register (1).png"
 const Header = () => {
   return (
     <div className="header">
       <div className="container">
         <Link to="/home">
         <div className="left">
-          <img src="../../img/logo.svg" alt="" />
+          <img src={qfx} alt="" />
         </div>
         </Link>
         <div className="center">
           <Link to="/home" style={{textDecoration:"none"}}>
           <div className="icon">
-            <img src="../../img/ico-movie.svg" alt="" />
+            <img src={m1} alt="" />
             <span> Movies</span>
           </div>
           </Link>
           <div className="icon">
-            <img src="../../img/ico-cinema.svg" alt="" />
+            <img src={l1} alt="" />
             <span> Locations</span>
           </div>
           <div className="icon">
-            <img src="../../img/ico-ticket.svg" alt="" />
+            <img src={t1} alt="" />
             <span> My Tickets</span>
           </div>
           <div className="icon">
-            <img src="../../img/ico-loyalty.svg" alt="" />
+            <img src={l2} alt="" />
             <span> My Loyality</span>
           </div>
           <div className="icon">
-            <img src="../../img/ico-support.svg" alt="" />
+            <img src={s1} alt="" />
             <span> Support</span>
           </div>
         </div>
@@ -43,8 +51,8 @@ const Header = () => {
         </Link>
         </div>
         <div className="right2">
-          <img src="../../img/login-ico.png" alt="" />
-          <img src="../../img/register (1).png" alt="" />
+          <img src={l3} alt="" />
+          <img src={r1} alt="" />
         </div>
       </div>
     </div>

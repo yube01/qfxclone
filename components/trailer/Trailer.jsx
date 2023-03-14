@@ -1,6 +1,6 @@
 import React from "react";
 import "./trailer.css";
-
+import t4 from "../../src/assets/img/ico-ticket.svg"
 const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
    
    
@@ -28,7 +28,7 @@ const Trailer = ({nowShow,setOpenTrailer,openTrailer}) => {
             <span>{nowShow.rated}</span>
           </div>
           <div className="icon4">
-            <img src="../../img/ico-ticket.svg" alt="" />
+            <img src={t4} alt="" />
             <span> Buy Ticket </span>
           </div>
         </div>

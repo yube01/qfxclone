@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import "./poster.css"
 import Trailer from "../trailer/Trailer"
-
+import buy from "../../src/assets/img/ico-ticket.svg"
+import trai from "../../src/assets/img/play-icon.svg"
 
 const Poster = ({nowShow}) => {
 
@@ -25,11 +26,11 @@ const Poster = ({nowShow}) => {
        <div className="posterIcon">
        <div className="icons">
                <div className="icon2">
-               <img src="../../img/ico-ticket.svg" alt="" />
+               <img src={buy} alt="" />
                <span> Buy Ticket </span>
                </div>
                <div className="icon2" onClick={()=>{setOpenTrailer(!openTrailer)}} >
-               <img src="../../img/play-icon.svg" alt="" />
+               <img src={trai} alt="" />
                <span> Play Trailer </span>
                </div>
           
