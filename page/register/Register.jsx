@@ -13,7 +13,7 @@ import n3 from "../../src/assets/img/email.svg"
 import n4 from "../../src/assets/img/@.png"
 import n5 from "../../src/assets/img/@.png"
 import n6 from "../../src/assets/img/pin.svg"
-
+import {createUserWithEmailAndPassword} from "firebase/auth"
 
 
 
@@ -24,8 +24,18 @@ import n6 from "../../src/assets/img/pin.svg"
 
 const Register = () => {
 
+  const[email,setEmail]= useState("")
+  const [password, setPassword] = useState("")
+  const [name,setName]= useState("")
+  const [number,setNumber] =useState("")
 
+  const signUp =(e)=>{
+    e.preventDefault();
+    createUserWithEmailAndPassword(auth,email,password).then((result)=>{
+      console.log(result)
+    }).catch((error)=>{console.log(error)})
 
+  }
 
 
   const signInWithGoogle =()=>{
@@ -51,30 +61,38 @@ const Register = () => {
       <div className="registerPage">
         <div className="wrapper1">
           <h1> Register</h1>
-          <form >
+          <form onSubmit={signUp}>
             <div className="inputForm">
               <img src={n1} alt="" />
               <input type="text" placeholder="Name" 
-              
+               value={name}
+               onChange={(e)=>setName(e.target.value)} 
               />
             </div>
             <div className="inputForm">
               <img src={n2} alt="" />
-              <input type="text" placeholder="Mobile" />
+              <input type="text" placeholder="Mobile"
+              value={number}
+              onChange={(e)=>setNumber(e.target.value)} />
             </div>
             <div className="inputForm">
               <img src={n3} alt="" />
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email"
+              value={email}
+              onChange={(e)=>setEmail(e.target.value)} />
             </div>
             <div className="inputForm">
               <img src={n4} alt="" />
               <input type="password" placeholder="Password" 
-           
+              value={password}
+              onChange={(e)=>setPassword(e.target.value)}
               />
             </div>
             <div className="inputForm">
               <img src={n5} alt="" />
-              <input type="password" placeholder="Confirm Password" />
+              <input type="password" placeholder="Confirm Password"
+                value={password}
+                onChange={(e)=>setPassword(e.target.value)} />
             </div>
             <div className="inputForm">
               <img src={n6} alt="" />
@@ -91,6 +109,7 @@ const Register = () => {
               <option className="option1" value="Nepalgunj">Nepalgunj</option>
             </select>
             </div>
+            <input type="submit" />
           </form>
           
           <div className="recapcha">
